@@ -7,7 +7,7 @@ Accounts.ui.config({
 });
 
 Accounts.onLogin(function() {
-    if(FlowRouter.current().route.path == '/') {
-        FlowRouter.go('/tasks')
-    }
+  if(FlowRouter.current().route.path == '/') {
+    FlowRouter.go('/tasks')
+  }
 })
